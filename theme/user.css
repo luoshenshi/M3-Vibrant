@@ -778,7 +778,6 @@ button[class*="filter"]:hover,
 .artist-artistDiscography-headerContainer {
   margin: 0 -23px !important;
   padding: 40px !important;
-
 }
 
 .artist-artistDiscography-topBarScrolled {
@@ -813,11 +812,11 @@ button[class*="filter"]:hover,
   font-size: 15px !important;
 }
 
-
 /*PLAY-BUTTON ON DISCOGRAPHY*/
 .encore-inverted-light-set.e-10810-button-icon-only--small {
   width: 48px !important;
   height: 48px !important;
+}
 #Desktop_PanelContainer_Id
   > div
   > div.main-nowPlayingView-mainContainer.l5xRM2jngMo7LJO4.main-actionBar-ActionBarContainer
