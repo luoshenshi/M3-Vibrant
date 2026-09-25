@@ -353,7 +353,7 @@ svg {
   position: relative !important;
 }
 
-.fLG2qkNam8uQwEyN {
+.PRydOIAjJUGRdKm8piwY {
   flex: 0 1 auto !important;
 }
 
@@ -422,6 +422,10 @@ svg {
   font-weight: 500 !important;
 }
 
+.encore-bright-accent-set {
+  justify-content: center !important;
+}
+
 .encore-text-body-small-bold {
   color: var(--spice-subtext);
   font-weight: 600;
@@ -451,13 +455,13 @@ svg {
 
 /* CONTROLS AND BUTTONS */
 
-.main-playButton-PlayButton .e-10810-button-primary__inner {
+.main-playButton-PlayButton .e-10860-button-primary__inner {
   background-color: var(--spice-play-button) !important;
   border-radius: 100% !important;
   transition: background-color var(--m3-duration-medium) ease !important;
 }
 
-.e-10810-button-primary__inner:hover {
+.e-10860-button-primary__inner:hover {
   background-color: var(--spice-play-button-hover) !important;
 }
 
@@ -660,6 +664,18 @@ button[class*="filter"]:hover,
   background: rgba(var(--spice-rgb-text), 0.38) !important;
 }
 
+/* Eqlizer Color Change */
+
+.main-trackList-rowMarker img {
+  filter: grayscale(1) brightness(0.8) !important;
+}
+
+.bUVkyYuHPJ19V664vzfA {
+  filter: grayscale(1) brightness(0.8) !important;
+}
+
+
+
 .main-trackList-trackListRow {
   border-radius: var(--m3-radius-medium) !important;
   transition: background-color var(--m3-duration-short) ease !important;
@@ -854,9 +870,26 @@ button[class*="filter"]:hover,
   box-shadow: none !important;
 }
 
+/* Library Styling */
+
+.LaH7CXkEWfXVT37wbc2Y {
+  display: none;
+}
+
+/* Liked Songs Styling */ 
+
+.M7ECcaA17LC8UqL2GKVD {
+  display: none !important;
+}
+
 /* Artist Styling */
 
 /* = Discography = */
+
+.P91StDUW8iiKx4vRlEpx {
+  padding: 32px !important;
+  border-radius: var(--m3-radius-large) !important;
+}
 .artist-artistDiscography-headerContainer {
   padding: 24px !important;
   align-items: center !important;
@@ -882,12 +915,14 @@ button[class*="filter"]:hover,
 
 /* REMOVING GRADIENTS */
 
-.main-entityHeader-backgroundColor {
+.dqwQhIudKoD98eWJzj5E {
   display: none !important;
 }
-.main-actionBarBackground-background {
-  display: none !important;
+
+.yKCAvGVbd6TgspV2YaTf.p21x4R9OyvxWhr9old3h:after {
+  background-color: var(--spice-sidebar) !important;
 }
+
 .main-home-homeHeader {
   display: none !important;
 }
